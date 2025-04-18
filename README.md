@@ -17,7 +17,7 @@
 | Corso | Docente/i | Risorse |
 |-------|-----------|---------|
 | Analisi Matematica | Prof. Gerardo Iovane | [📄 Appunti](./Triennale/analisi) |
-| Sistemi Operativi | Prof.ssa Bruno Carpentieri | [📄 Appunti](./Triennale/sistemi_operativi) |
+| Sistemi Operativi | Prof.ssa Bruno Carpentieri | [📄 Appunti](./Triennale/Sistemi\ Operativi) |
 | Basi di Dati | Prof. Giuseppe Polese | [📄 Appunti](./Triennale/Basi\%20di\%20dati) |
 | Reti di calcolatori | Prof. Francesco Palmieri | [📄 Appunti](./triennale/reti) |
 | Progettazione di algoritmi | Prof.ssa Annalisa De Bonis | [📄 Appunti](./triennale/algoritmi) |
@@ -50,12 +50,11 @@
 unisa-mind-dump/ ├── triennale/ │ ├── analisi/ │ ├── strutture_dati/ │ └── ... ├── magistrale/ │ ├── programmazione_sicura/ │ ├── sicurezza_dati/ │ └── ... └── README.md
 
 Ogni sottocartella contiene:
-- `README.md` descrittivo del corso
-- Appunti (`.pdf`, `.md`)
+- Appunti (`.pdf`, `.docx`)
 - Codici sorgente (`.py`, `.java`, ecc.)
-- Progetti (`/project`, `/lab`)
+- Progetti 
 - Esercizi svolti e verifiche (quando presenti)
 
 ---
-
+**Attenzione:** questo repository raccoglie materiale didattico informale (appunti, esercizi, progetti, codice sorgente) realizzato da studenti durante i corsi di laurea triennale e magistrale in Informatica presso l’**Università degli Studi di Salerno (UNISA)**.
 
