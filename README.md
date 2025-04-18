@@ -16,20 +16,16 @@
 
 | Corso | Docente/i | Risorse |
 |-------|-----------|---------|
-| Analisi Matematica | Prof. Gerardo Iovane | [📄 Appunti](./triennale/analisi) |
-| Metodi Matematici per l’Informatica | Prof.ssa Rocco Zaccagnino | [📄 Appunti](./triennale/mmi) |
-| Strutture Dati | Prof. Maurizio Tucci | [📄 Appunti + Codici](./triennale/strutture_dati) |
-| Sistemi Operativi | Prof.ssa Bruno Carpentieri | [📄 Formule](./triennale/sistemi_operativi) |
-| CPSM | Prof.ssa Virginia Giorno | [📄 Appunti](./triennale/cpsm) |
-| Reti | Prof. Francesco Palmieri | [📄 Appunti](./triennale/reti) |
-| Progettazione Algoritmi | Prof.ssa Annalisa De Bonis | [📄 Appunti](./triennale/algoritmi) |
-| Ingegneria del Software | Prof.ssa Filomena Ferrucci | [📄 Appunti](./triennale/ingegneria_software) |
-| Mobile Programming | Prof. Roberto De Prisco | [📄 Codici](./triennale/mobile_programming) |
-| Programmazione Distribuita | Prof. Vittorio Scarano | [📄 Appunti](./triennale/programmazione_distribuita) |
-| Teoria della Computazione | Prof.ssa Luisa Gargano | [📄 Appunti](./triennale/teoria_computazione) |
-| Calcolo Scientifico | Prof.ssa Dajana Conte | [📄 Appunti](./triennale/calcolo_scientifico) |
-| Grafica ed Interattività | Prof. Andrea Abate  | [📄 Appunti](./triennale/programmazione_avanzata) |
-| Ricerca Operativa | Prof. Francesco Carrabs | [📄 Appunti](./triennale/ricerca_operativa) |
+| Analisi Matematica | Prof. Gerardo Iovane | [📄 Appunti](./Triennale/analisi) |
+| Sistemi Operativi | Prof.ssa Bruno Carpentieri | [📄 Formule](./Triennale/sistemi_operativi) |
+| Basi di Dati | Prof. Giuseppe Polese | [📄 Appunti](./Triennale/Basi_di_dati) |
+| Reti di calcolatori | Prof. Francesco Palmieri | [📄 Appunti](./triennale/reti) |
+| Progettazione di algoritmi | Prof.ssa Annalisa De Bonis | [📄 Appunti](./triennale/algoritmi) |
+| Ingegneria del software | Prof.ssa Filomena Ferrucci | [📄 Appunti](./triennale/ingegneria_software) |
+| Elementi e teoria della computazione | Prof.ssa Luisa Gargano | [📄 Appunti](./triennale/teoria_computazione) |
+| Calcolo scientifico | Prof.ssa Dajana Conte | [📄 Appunti](./triennale/calcolo_scientifico) |
+| Tecnologie e software per il web | Prof. Rita Francese | [📄 Appunti](./triennale/analisi) |
+
 
 ---
 
