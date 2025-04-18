@@ -1,0 +1,407 @@
+BFS(s)
+Discovered[s]=true , Discovered[v]= false;
+L_0={s}
+T={}
+i=0
+While i < n-2  O(n-2)
+	L_i+1={}
+	
+	for each nodo u in L_i          // al più O(n) in totale 
+		for each arco(u,v) incidente su  // al più som di deg(v) = 2m quinid al più m volte
+			if ( Discovered[v]=false )
+				Discovered[v]=true	
+				L_i+1 = L_i+1 U {v}
+				T= T U {(u,v)}
+			endif
+		endfor
+	endfor
+i=i+1
+endwhile
+
+Complessita O(n+m)
+--------------------------------------------------------------------------------------------------------------------------------
+
+BFS(s) con coda FIFO
+
+T={}
+Q={}
+Discovered[s]=true , Discovered[v]= false;
+Q <-- s
+
+While Q non vuota 
+	u = Front(Q)
+	
+	for each arco (u,v) incidente su u
+		if(Discovered[v]=false)
+			Discovered[v]=true
+			Q <-- v
+			T = T U {(u,v)}	
+		endif	
+	endfor
+endwhile 
+
+Complessità O(n+m)
+---------------------------------------------------------------------------------------------------------------------------------
+
+AllComponent(G)
+
+foreach nodo u di G
+	Discovered[u]=false   //O(n)
+endfor
+
+foreach nodo u di G        //O(n)
+	if(Discovered[u]= false)   //O(n+m)
+		BSF(u)
+	endif
+endfor
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+IsBipartito(s)
+
+Discovered[s]= true , Discovered[v]= false;
+T={}
+L_0 = s
+i=0
+
+While i<=2
+	L_i+1 = {}
+	for each nodo u di L_i	
+		for each arco (u.v) incidente su u
+			if(Discovered[v]= false)
+				if(L_i%2 = 0)	
+					Color[v]=red
+				else
+					Color[v]=blue
+				endif
+				Discovered[v]=true
+				L_i+1 = L_i+1 U {v}
+				T = T U (u,v)
+			endif
+		endfor
+	endfor
+i=i+1
+endwhile
+
+foreach arco (u,v) di G
+	if(Color[u] = Color[v])
+		return true
+	else
+		return false
+endfor
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+StrongLinked(G)
+
+s sia un nodo di G
+
+BFS(s)
+
+G-rev = reverse archi di G
+s` sia un nodo di G-rev
+
+BFS(s`)
+
+if(archi raggiunti da BFS(s) = archi raggiunti da BFS(s`))
+	return true
+else 
+	return false
+endif
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+TopologicalOreder(G)
+
+if(esiste un arco v senza archi entranti)
+	cancella v da G
+	L=TopologicalOrder(G-{v})
+	aggiungi v all'inizio di L
+	retun L
+else
+	return lista vuota
+endif
+
+O(n^2)
+
+Per migliorare l'algoritmo dobbiamo mantenere i nodi attivi , ovvere i nodi che non sono stati cancellati e per ciascun nodo attivo w dobbiamo mantenere:
+-count[w] = archi entranti in w da nodi attivi
+-S = insieme nodi attivi che non hanno archi entranti da nodi attivi
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+un DAG G ha almeno un arco senza archi entranti 
+
+DIM.
+Per assurdo assumiamo che un DAG G abbia tutti gli archi con almeno un arco entrante.
+Partendo da un nodo generico u scorriamo all'indietro il DAG dato che tutti i nodi hanno archi entranti(w,u).
+Lo facciamo n volte a piacere e ci ritroveremo ad un certo punto a transitare su un nodo già visitato in precedenza.
+Attraversando n archi visiteremo n+1 nodi quindi ciò vuol dire che visiteremo un nodo w 2 volte.
+Ciclo che comincia e termina in w. NON È UN DAG
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Fornire un algoritmo che dato un grafo non direzionato G , scopre se G contiene cicli e in caso contrario produce in output uno dei cicli
+
+-Si esegue una BFS sul grafo , se non è conneso più BFS.
+-Se al termine gli alberi BFS contengono tutti gli archi di G non vi sono cicli.
+-Altrimenti c'è almeno un arco (x,y) che non fa parte di BFS e quindi si ha un modo alternativo per arrivare a un nodo y già scoperto
+-CICLO!
+Si considera l'albero in cui si trovano x e y e si cerca z (lowest common ancerstor) e il percorso z-x + z-y + arco (x,y) formano il ciclo
+Per dare il ciclo in output possiamo scorrere le liste di adiacenza di x e y fino a trovare il loro LCA e si stampanpo gli archi che formano in ciclo
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+GREEDY
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Interval Scheduling
+
+Input: Intervalli di j job formati da [s_j:inizio job e f_j: fine job]
+
+Obiettivo : trovare un sottinsieme di job in modo da massimizzare il numero di job che però devono essere compatibili 2 a 2
+
+Un job è compatibile con un altro se S_J >= F_i o S_i >= F_j
+
+
+Strategia Greedy corretta : Earliest Finish Time
+
+EarliestFinishTime(n,[s,f])
+
+	Ordino i job in modo non decrescente per la loro fine f1 <= f2 <= ... <= fn
+
+	t=0
+	A={}
+
+	for j=1 a n
+		if(s_j>=t)
+		
+		A = A U {[s_J, f_j]}
+		t = f_j
+		endif
+	endfor
+return A
+
+Complessità O(nlogn)
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Partizionamento di intervalli
+
+Input: n intervalli  formaiti da [s_i e f_i] e un numero di risorse v da assegnare alle attività
+
+Obiettivo: Vogliamo esegiure tutte le n attività in modo da minimizzare le risorse da utilizzare
+
+Algoritmo
+
+Ordino i job in modo non decrescente per i loro tempi di inizio s_1 <= s_2 <= ... <= s_f
+
+d = 0
+S={}
+
+	for j=1 a n
+		if(job j assegnabile a qualche risorsa già allocata v)
+			S = S U {([s_j , f_j] , v)}
+		else 
+			S = S U {([s_j , f_j] , d+1)} 
+			d = d +1
+		endif
+	endfor
+return S
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Minimizzazione dei ritardi
+
+Input: una singola risorsa in grado di computare un`attività alla volta , e un insieme di attività che sono formate da:
+ -t_j: durata esecuzione attività
+ -d_j: scadenza dell'attività 
+
+Obiettivo: trovare uno scheduling in modo da minimizzare il ritardo di tutte le attività 
+
+se un'attività comincia a s_j finisce a f_j = s_j + t_j 
+il ritardo di un'attivita j é l_j = max{ 0 , f_j-d-j}
+
+EarlyDeadlineFirst()
+	Ordino i job in modo non decrescente per la loro scadenza in modo che d_1 <= d_2 <= ... <= d_n
+
+	t = 0
+
+for j=1 a n
+	Assegno job j all'intervallo [t , t+t_j]
+
+	s_j = t ; f_j = t+t_j;
+	t = t + t_j;
+endfor
+return intervalli( [s_1 , f_1] ... [s_n , f_n])
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Dijkstra(G,s,l_e){
+
+S = {}
+Q = {} // coda a priorità con coppie (d[u]` , u)
+T = {}
+Insert(Q,(0,s)
+
+for each nodo u non in S{
+	Insert(Q,(inf,u))
+	pred[u]=nil
+}
+While (S != V ){
+	(d(u),u) <-- ExtractMin(Q)
+	S = S U {u}
+	T = T U {(pred[u],u)}
+
+	foreach arco e(u,v){ 
+		if(v non in S a and d[u]+l_e <= d[v]){
+			ChangeKey(Q,(d[u]+l_e , v))
+			pred[v]=u
+ 		}
+	}
+}
+}   
+
+Complessità O(nlogn + mlogn)
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Prim(G,c_e)
+
+S = {}
+Q = {} // coda a priorità con coppie (a[u] , u)
+t = {}
+
+for each nodo u di G{
+	Insert(Q, (inf,u))
+	pred[u] = nil
+}  
+While (Q non vuota){
+	(a[u], u) <-- ExtractMin(Q)
+	S = S U {u}
+	T = T U {(pred[u] , u)}
+
+	for each arco e(u , v){
+		if( v non in S and c_e <= a[v]){
+			ChangeKey(Q,(c_e , v))
+			pred[v] = u
+		} 
+	}
+}
+}
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+MergeSort(a,sinistra,destra){
+if(sinistra < destra){
+c = (sinistra+destra)/2
+
+MergeSort(a,sinistra,c)
+MergeSort(a,c+1,destra)
+
+Merge(a,sinistra,c,destra)
+}
+
+}
+
+Merge(a,sx,c,dx){
+i=sx
+j=c+1
+k=0
+
+while(i<=c and j<= dx)
+	if(a[i] <= a[j])
+		b[k] = a[i]
+		i++
+	else
+		b[k] = a[j]
+		j++
+	k++
+
+for(;i<= cx ; i++ ; k++)
+	b[k] = a[i]
+
+for(;j<= dx ; j++ ; k++)
+	b[k] = a[j]
+for(i = sx;i <= dx ; i++)
+	a[i] = b[i-sx]
+
+}
+
+	 { c_0 se n <=1
+T(n) <={
+	 { 2T(n/2) + cn + c`
+
+iterando abbiamo :
+	= 2T(n/2)+ cn + c` = c`+ cn 2( cn/2 + c` + 2T(n/4) = 
+	= 4T(n/4)+ 2cn + (1+2)c` = (1+2)c` + 2cn + 4( cn/4 ) + c` + 2T(n/8) = 
+	= (1+2+4)c` + 3cn + 8T(n/8) = 
+
+	= (2^i -1)c` + icn + 2^i T(n/2^i) =
+
+	Caso base si raggiunge quando n/2^i <= 1 qunidi 2^i >= n  ==> i = log n
+	
+	abbiamo quindi = (2^log n -1)c` + cn log n + T(1)
+
+	O(n log n)
+
+-----------------------------------------------------------------------------------------------------------------------
+
+BinarySearch(a,sx , dx , k)
+if(sx > dx)
+	return -1
+c = (sx+dx)/2
+
+if(a[c] == k)
+	return c
+if(sx == dx)
+	return -1
+if(a[c] > k
+	BinarySearch(a , sx , c-1 , k)
+else
+	BinarySeach (a , c+1 , dx , k)
+
+
+	 { c_0 se n <=1 o a[c] == k
+T(n) <={
+	 { T(n/2)+c 
+
+
+------------------------------------------------------------------------------------------------------------------------
+
+QuickSelect(a,sinistra , destra , r)
+if(sinistra < destra ){
+	Scelgo un pivot nell'intervallo [sx,dx]
+	IndiceFinalePivot = Distribuzione(a, sinistra , destra , p)
+	
+	if(IndiceFinalePivot == r-1)
+		return IndiceFinalePivot
+	if(IndiceFinalePivot > r-1)
+		QuickSelect(a, sx , IndiceFinalePivot-1 , r)
+	else 
+		QuickSort(a, IndiceFinalePivot+1 , dx , r)
+}
+
+
+Distribuzione(a , sx , dx , p){
+	if(p != dx) Scambia(p , dx)
+	
+i= sx
+j= dx-1
+
+While(i <= j)
+	While( i <= j and a[i] <= dx){
+		i++}
+	While( i <= j and a[j] >= dx){
+		j--}
+	if(i < j) Scambia(i,j){
+	i++
+	j--
+	}
+	if(i != dx) {Scambia (i , dx)}
+		return i;
+}
+
+
+        { c_0                    se n <=1 
+T(n) <= { c_1n                   se rp = r-1
+        { T(rp-1)+ T(n-rp) + cn  altrimenti 
+
+
+ 
