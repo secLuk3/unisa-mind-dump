@@ -16,15 +16,15 @@
 
 | Corso | Docente/i | Risorse |
 |-------|-----------|---------|
-| Analisi Matematica | Prof. Gerardo Iovane | [📄 Appunti](./Triennale/analisi) |
+| Analisi Matematica | Prof. Gerardo Iovane | [📄 Appunti](./Triennale/Analisi%20Matematica) |
 | Sistemi Operativi | Prof.ssa Bruno Carpentieri | [📄 Appunti](./Triennale/Sistemi%20Operativi) |
-| Basi di Dati | Prof. Giuseppe Polese | [📄 Appunti](./Triennale/Basi\%20di\%20dati) |
-| Reti di calcolatori | Prof. Francesco Palmieri | [📄 Appunti](./triennale/reti) |
-| Progettazione di algoritmi | Prof.ssa Annalisa De Bonis | [📄 Appunti](./triennale/algoritmi) |
-| Ingegneria del software | Prof.ssa Filomena Ferrucci | [📄 Appunti](./triennale/ingegneria_software) |
-| Elementi e teoria della computazione | Prof.ssa Luisa Gargano | [📄 Appunti](./triennale/teoria_computazione) |
-| Calcolo scientifico | Prof.ssa Dajana Conte | [📄 Appunti](./triennale/calcolo_scientifico) |
-| Tecnologie e software per il web | Prof. Rita Francese | [📄 Appunti](./triennale/analisi) |
+| Basi di Dati | Prof. Giuseppe Polese | [📄 Appunti](./Triennale/Basi%20di%20Dati) |
+| Reti di calcolatori | Prof. Francesco Palmieri | [📄 Appunti](./Triennale/Reti%20di%20calcolatori) |
+| Progettazione di algoritmi | Prof.ssa Annalisa De Bonis | [📄 Appunti](./Triennale/Progettazione%20di%algoritmi) |
+| Ingegneria del software | Prof.ssa Filomena Ferrucci | [📄 Appunti](./Triennale/Ingegneria%20del%20software) |
+| Elementi e teoria della computazione | Prof.ssa Luisa Gargano | [📄 Appunti](./Triennale/Elementi%20e%20teoria%20della%20computazione) |
+| Calcolo scientifico | Prof.ssa Dajana Conte | [📄 Appunti](./Triennale/Calcolo%20scientifico) |
+| Tecnologie e software per il web | Prof. Rita Francese | [📄 Appunti](./Triennale/Tecnologie%20e%20software%20per%20il%20web) |
 
 
 ---
