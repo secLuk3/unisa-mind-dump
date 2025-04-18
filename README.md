@@ -17,7 +17,7 @@
 | Corso | Docente/i | Risorse |
 |-------|-----------|---------|
 | Analisi Matematica | Prof. Gerardo Iovane | [📄 Appunti](./Triennale/analisi) |
-| Sistemi Operativi | Prof.ssa Bruno Carpentieri | [📄 Appunti](./Triennale/Sistemi\ Operativi) |
+| Sistemi Operativi | Prof.ssa Bruno Carpentieri | [📄 Appunti](./Triennale/Sistemi%20Operativi) |
 | Basi di Dati | Prof. Giuseppe Polese | [📄 Appunti](./Triennale/Basi\%20di\%20dati) |
 | Reti di calcolatori | Prof. Francesco Palmieri | [📄 Appunti](./triennale/reti) |
 | Progettazione di algoritmi | Prof.ssa Annalisa De Bonis | [📄 Appunti](./triennale/algoritmi) |
