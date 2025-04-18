@@ -16,15 +16,15 @@
 
 | Corso | Docente/i | Risorse |
 |-------|-----------|---------|
-| Analisi Matematica | Prof. Gerardo Iovane | [📄 Appunti](./Triennale/Analisi%20Matematica) |
-| Sistemi Operativi | Prof.ssa Bruno Carpentieri | [📄 Appunti](./Triennale/Sistemi%20Operativi) |
-| Basi di Dati | Prof. Giuseppe Polese | [📄 Appunti](./Triennale/Basi%20di%20Dati) |
+| Analisi Matematica | Prof. Gerardo Iovane | [📄 Appunti-Formule](./Triennale/Analisi%20Matematica) |
+| Sistemi Operativi | Prof.ssa Bruno Carpentieri | [📄 Appunti-Prove](./Triennale/Sistemi%20Operativi) |
+| Basi di Dati | Prof. Giuseppe Polese | [📄 Appunti-Progetto](./Triennale/Basi%20di%20Dati) |
 | Reti di calcolatori | Prof. Francesco Palmieri | [📄 Appunti](./Triennale/Reti%20di%20calcolatori) |
 | Progettazione di algoritmi | Prof.ssa Annalisa De Bonis | [📄 Appunti](./Triennale/Progettazione%20di%algoritmi) |
 | Ingegneria del software | Prof.ssa Filomena Ferrucci | [📄 Appunti](./Triennale/Ingegneria%20del%20software) |
-| Elementi e teoria della computazione | Prof.ssa Luisa Gargano | [📄 Appunti](./Triennale/Elementi%20e%20teoria%20della%20computazione) |
-| Calcolo scientifico | Prof.ssa Dajana Conte | [📄 Appunti](./Triennale/Calcolo%20scientifico) |
-| Tecnologie e software per il web | Prof. Rita Francese | [📄 Appunti](./Triennale/Tecnologie%20e%20software%20per%20il%20web) |
+| Elementi e teoria della computazione | Prof.ssa Luisa Gargano | [📄 Appunti-Prove](./Triennale/Elementi%20e%20teoria%20della%20computazione) |
+| Calcolo scientifico | Prof.ssa Dajana Conte | [📄 Appunti-Prova](./Triennale/Calcolo%20scientifico) |
+| Tecnologie e software per il web | Prof. Rita Francese | [📄 Appunti-Progetto](./Triennale/Tecnologie%20e%20software%20per%20il%20web) |
 
 
 ---
@@ -47,7 +47,16 @@
 ---
 
 ## 🗂️ Struttura del Repository
-unisa-mind-dump/ ├── triennale/ │ ├── analisi/ │ ├── strutture_dati/ │ └── ... ├── magistrale/ │ ├── programmazione_sicura/ │ ├── sicurezza_dati/ │ └── ... └── README.md
+unisa-mind-dump/
+├── Triennale/
+│   ├── Analisi Matematica/
+│   ├── strutture_dati/
+│   └── ...
+├── Magistrale/
+│   ├── Programmazione_sicura/
+│   ├── Sicurezza_dati/
+│   └── ...
+└── README.md
 
 Ogni sottocartella contiene:
 - Appunti (`.pdf`, `.docx`)
