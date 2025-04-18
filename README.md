@@ -18,7 +18,7 @@
 |-------|-----------|---------|
 | Analisi Matematica | Prof. Gerardo Iovane | [📄 Appunti-Formule](./Triennale/Analisi%20Matematica) |
 | Sistemi Operativi | Prof.ssa Bruno Carpentieri | [📄 Appunti-Prove](./Triennale/Sistemi%20Operativi) |
-| Basi di Dati | Prof. Giuseppe Polese | [📄 Appunti-Progetto](./Triennale/Basi%20di%20Dati) |
+| Basi di Dati | Prof. Giuseppe Polese | [📄 Progetto](./Triennale/Basi%20di%20Dati) |
 | Reti di calcolatori | Prof. Francesco Palmieri | [📄 Appunti](./Triennale/Reti%20di%20calcolatori) |
 | Progettazione di algoritmi | Prof.ssa Annalisa De Bonis | [📄 Appunti](./Triennale/Progettazione%20di%algoritmi) |
 | Ingegneria del software | Prof.ssa Filomena Ferrucci | [📄 Appunti](./Triennale/Ingegneria%20del%20software) |
