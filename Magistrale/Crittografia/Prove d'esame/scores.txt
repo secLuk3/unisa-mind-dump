@@ -1,0 +1,126 @@
+Riduzioni: 													7
+
+G PRG => c = G(s) xor m è EAV-sicuro: 								2
+
+Segretezza Computazionale: 										1
+
+Definizione di CPA-sicuro simmetrico:								1
+
+Definizione di CCA-sicuro simmetrico: 								1
+
+Funzioni pseudocasuali: 										1
+
+F(k,x) = x^2 dove x^2 = x^2 mod 2^n è pseudocasuale?: 					1
+
+Test di Miller e Rabin: 										6
+
+DDH difficile in G => El Gamal CPA-sicuro: 							2
+
+Come costruire KEM CCA-sicuro nel ROM usando idee El Gamal: 				1
+
+Schema di identificazione di Schnorr: 								5
+
+Opzionale: 													1
+
+DDH difficile in G => Scambio DH EAV-sicuro							1
+
+Schema perfettamente segreto => |K| >= |M|							2
+
+OTP non CPA-sicuro											1
+
+Definizione di generatore pseudocasuale								2
+
+Esercizio di generatore pseudocasuale								2
+
+HMAC e sicurezza												1
+
+KEM con funzione Hash e RSA										1
+
+RSA difficile => KEM con ROM e RSA CCA-sicuro							1
+
+Sotto quali condizioni Vigenere è perfettamente segreto? 					1
+
+Cifratura autenticata: perchè è utile?								2
+
+Cifratura autenticata: con quale approccio generico si ottiene?				2
+
+Cifratura autenticata: relazione con CCA-sicurezza						2
+
+RSA con random pad											1
+
+RSA-OAEP													1
+
+Uso di Schnorr per schema di firma digitale							1
+
+Trasformata di Merkle-Damgard										3
+
+DL difficile rispetto a Gen() => costruzione hash coll-res					1
+
+RSA-FDH													3
+
+RSA-FDH contraffabile => RSA invertibile								3
+
+F pseudocasuale => c:=<r,fk(r) xor m> CPA-sicuro						3
+
+Generare numeri primi casuali di n bit, cosa ci assicura di trovarli in O(p(n))	3
+
+Funzioni one way: cosa sono, definizione								1
+
+Funzioni one way sufficienti per tutta la crittografia simmetrica				1
+
+Gruppo ciclico												3
+
+Problemi DL, CDH e DDH											3
+
+Importanza dei gruppi ciclici in crittografia							2
+
+El-Gamal													1
+
+CPA-sicurezza pubblica											2
+
+Esempio schema pubblico CPA-sicuro + prova							3
+
+Schema di identificazione interattivo								2
+
+MAC														1
+
+Sicurezza di MAC												1
+
+Come costruire schema MAC sicuro									1
+
+Hash: schema commitment											1
+
+Hash: autenticazione mediante Merkle-Tree								1
+
+Schema di firma digitale sicuro rispetto ad adaptive chosen message attack		1
+
+Sicurezza Semantica e Indistinguibilità: relazione di uguaglianza				1
+
+Modalità operative											1
+
+Crittosistemi a chiave pubblica EAV-sicuri							1
+
+Uguaglianza tra sicurezza EAV e CPA negli schemi a chiave pubblica			1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
