@@ -37,7 +37,7 @@
 | Digital Forensics | Prof. Ugo Fiore | [📄 Appunti](./magistrale/digital_forensics) ||
 | IoT Security | Prof. Cristian Esposito | [📄 Appunti + Codici](./magistrale/compilatori) |[👉 BlockTemp](https://github.com/Luke31999/BlockTemp)|
 | Compressione Dati | Prof. Bruno Carpentieri | [📄 Appunti + Progetti](./magistrale/compressione_dati) |[👉 Babele](https://github.com/secLuk3/Babele_Gruppo24_FVAB)|
-| Sicurezza dei Dati | Prof. Cristian Esposito | [📄 Appunti + Progetto](./magistrale/sicurezza_dati) ||
+| Sicurezza dei Dati | Prof. Cristian Esposito | [📄 Appunti + Progetto](./magistrale/sicurezza_dati) |[👉 BlockTemp](https://github.com/Luke31999/BlockTemp)|
 | Biometria | Prof. Michele Nappi | [📄 Appunti + Progetto](./magistrale/biometria) | [👉 LightFieldCompression](https://github.com/mattdr5/LightFieldImageCompression)|
 | Crittografia | Prof. Paolo D’Arco | [📄 Appunti + Domande](./magistrale/crittografia) ||
 | Interactive System Design | Prof. Vittorio Fuccella | [📄 Appunti + Progetto](./magistrale/system_design) |[👉 Tapping vs Gesturing](https://gitlab.com/g4660/isd23-24/exp2/data)|
