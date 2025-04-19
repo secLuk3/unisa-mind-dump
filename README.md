@@ -47,6 +47,7 @@
 ---
 
 ## 🗂️ Struttura del Repository
+```
 unisa-mind-dump/
 ├── Triennale/
 │   ├── Analisi Matematica/
@@ -57,6 +58,7 @@ unisa-mind-dump/
 │   ├── Sicurezza_dati/
 │   └── ...
 └── README.md
+```
 
 Ogni sottocartella contiene:
 - Appunti (`.pdf`, `.docx`)
