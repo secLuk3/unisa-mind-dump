@@ -31,18 +31,18 @@
 
 | Corso | Docente/i | Risorse | Progetto |
 |-------|-----------|---------|----------|
-| Metodi Numerici | Prof.ssa AngelamariaCardone | [📄 Appunti](./Magistrale/Metodi%20Numerici) ||
+| Metodi Numerici | Prof.ssa AngelamariaCardone | [📄 Appunti + Codici](./Magistrale/Metodi%20Numerici) ||
 | Programmazione Sicura | Prof.ssa Barbara Masucci | [📄 Appunti + Codici](./Magistrale/Programmazione%20Sicura) ||
 | Penetration Testing | Prof. Arcangelo Castiglione | [📄 Appunti ](./Magistrale/Penetration%20Testing) |[👉 Bizness](https://github.com/secLuk3/Penetration-Testing-Project-Unisa-23-24)|
-| Cybersecurity | Prof. Francesco Palmieri | [📄 Appunti ](./Magistrale/Cybersecurity) ||
+| Cybersecurity | Prof. Francesco Palmieri | [📄 Appunti + Domande ](./Magistrale/Cybersecurity) ||
 | Computer Assisted Audio Production | Prof. Riccardo Di Stasi | [📄 Materiale audio ](./Magistrale/Computer%20Assisted%20Audio%20Production) |[👉 Song](./Magistrale/Computer%20Assisted%20Audio%20Production/Project)|
 | Digital Forensics | Prof. Ugo Fiore | [📄 Appunti](./Magistrale/Digital%20Forensics) ||
-| IoT Security | Prof. Cristian Esposito | [📄 Appunti + Codici](./Magistrale/IoT%20Security) |[👉 BlockTemp](https://github.com/Luke31999/BlockTemp)|
-| Compressione Dati | Prof. Bruno Carpentieri | [📄 Appunti ](./Magistrale/Compressione%20Dati) |[👉 Babele](https://github.com/secLuk3/Babele_Gruppo24_FVAB)|
+| IoT Security | Prof. Cristian Esposito | [📄 Appunti ](./Magistrale/IoT%20Security) |[👉 BlockTemp](https://github.com/Luke31999/BlockTemp)|
+| Compressione Dati | Prof. Bruno Carpentieri | [📄 Appunti ](./Magistrale/Compressione%20Dati) | [👉 LightFieldCompression](https://github.com/mattdr5/LightFieldImageCompression)|
 | Sicurezza dei Dati | Prof. Cristian Esposito | [📄 Appunti ](./Magistrale/Sicurezza%20dei%20Dati) |[👉 BlockTemp](https://github.com/Luke31999/BlockTemp)|
-| Biometria | Prof. Michele Nappi | [📄 Appunti ](./Magistrale/Fondamenti%20di%20visione%20artificiale%20e%20biometria) | [👉 LightFieldCompression](https://github.com/mattdr5/LightFieldImageCompression)|
-| Crittografia | Prof. Paolo D’Arco | [📄 Appunti + Domande](./Magistrale/Crittografia) ||
-| Interactive System Design | Prof. Vittorio Fuccella | [📄 Appunti ](./Magistrale/Interactive%20System%20Design) |[👉 Tapping vs Gesturing](https://gitlab.com/g4660/isd23-24/exp2/data)|
+| Biometria | Prof. Michele Nappi | [📄 Appunti ](./Magistrale/Fondamenti%20di%20visione%20artificiale%20e%20biometria) |[👉 Babele](https://github.com/secLuk3/Babele_Gruppo24_FVAB)|
+| Crittografia | Prof. Paolo D’Arco | [📄 Appunti + Domande ](./Magistrale/Crittografia) ||
+| Interactive System Design | Prof. Vittorio Fuccella | [📄 Appunti + Domande ](./Magistrale/Interactive%20System%20Design) |[👉 Tapping vs Gesturing](https://gitlab.com/g4660/isd23-24/exp2/data)|
 
 ---
 
