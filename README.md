@@ -2,12 +2,6 @@
 
 > Raccolta ordinata e consultabile di appunti, esercizi, progetti e codici sorgente realizzati durante il corso di laurea triennale e magistrale in Informatica presso l’**Università degli Studi di Salerno (UNISA)**.
 
-## 📚 Indice
-
-- [📘 Triennale](#-triennale-completata)
-- [🎓 Magistrale](#-magistrale-completata)
-- [🗂️ Struttura del Repository](#-struttura-del-repository)
-
 ---
 
 ## 📘 Triennale (Completata)
