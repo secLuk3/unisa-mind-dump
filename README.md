@@ -40,7 +40,7 @@
 | Sicurezza dei Dati | Prof. Cristian Esposito | [📄 Appunti + Progetto](./magistrale/sicurezza_dati) ||
 | Biometria | Prof. Michele Nappi | [📄 Appunti + Progetto](./magistrale/biometria) | [👉 LightFieldCompression](https://github.com/mattdr5/LightFieldImageCompression)|
 | Crittografia | Prof. Paolo D’Arco | [📄 Appunti + Domande](./magistrale/crittografia) ||
-| Interactive System Design | Prof. Vittorio Fuccella | [📄 Appunti + Progetto](./magistrale/system_design) ||
+| Interactive System Design | Prof. Vittorio Fuccella | [📄 Appunti + Progetto](./magistrale/system_design) |[👉 Tapping vs Gesturing](https://gitlab.com/g4660/isd23-24/exp2/data)|
 
 ---
 
