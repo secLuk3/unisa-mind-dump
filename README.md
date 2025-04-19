@@ -38,7 +38,7 @@
 | IoT Security | Prof. Cristian Esposito | [📄 Appunti + Codici](./Magistrale/IoT%20Security) |[👉 BlockTemp](https://github.com/Luke31999/BlockTemp)|
 | Compressione Dati | Prof. Bruno Carpentieri | [📄 Appunti ](./Magistrale/Compressione%20Dati) |[👉 Babele](https://github.com/secLuk3/Babele_Gruppo24_FVAB)|
 | Sicurezza dei Dati | Prof. Cristian Esposito | [📄 Appunti ](./Magistrale/Sicurezza%20dei%20Dati) |[👉 BlockTemp](https://github.com/Luke31999/BlockTemp)|
-| Biometria | Prof. Michele Nappi | [📄 Appunti ](./Magistrale/biometria) | [👉 LightFieldCompression](https://github.com/mattdr5/LightFieldImageCompression)|
+| Biometria | Prof. Michele Nappi | [📄 Appunti ](./Magistrale/Fondamenti%20di%20visione%20artificiale%20e%20biometria) | [👉 LightFieldCompression](https://github.com/mattdr5/LightFieldImageCompression)|
 | Crittografia | Prof. Paolo D’Arco | [📄 Appunti + Domande](./Magistrale/Crittografia) ||
 | Interactive System Design | Prof. Vittorio Fuccella | [📄 Appunti ](./Magistrale/Interactive%20System%20Design) |[👉 Tapping vs Gesturing](https://gitlab.com/g4660/isd23-24/exp2/data)|
 
