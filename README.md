@@ -32,8 +32,8 @@
 | Corso | Docente/i | Risorse | Progetto |
 |-------|-----------|---------|----------|
 | Metodi Numerici | Prof.ssa AngelamariaCardone | [📄 Appunti](./magistrale/metodi_numerici) ||
-| Programmazione Sicura | Prof.ssa Barbara Masucci | [📄 Appunti + Progetti](./magistrale/programmazione_sicura) ||
-| Penetration Testing | Prof. Arcangelo Castiglione | [📄 Appunti + Progetti](./magistrale/penetration_testing) ||
+| Programmazione Sicura | Prof.ssa Barbara Masucci | [📄 Appunti + Codici](./magistrale/programmazione_sicura) ||
+| Penetration Testing | Prof. Arcangelo Castiglione | [📄 Appunti ](./magistrale/penetration_testing) ||
 | Digital Forensics | Prof. Ugo Fiore | [📄 Appunti](./magistrale/digital_forensics) ||
 | IoT Security | Prof. Cristian Esposito | [📄 Appunti + Codici](./magistrale/compilatori) |[👉 BlockTemp](https://github.com/Luke31999/BlockTemp)|
 | Compressione Dati | Prof. Bruno Carpentieri | [📄 Appunti + Progetti](./magistrale/compressione_dati) |[👉 Babele](https://github.com/secLuk3/Babele_Gruppo24_FVAB)|
