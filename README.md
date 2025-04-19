@@ -35,7 +35,7 @@
 | Programmazione Sicura | Prof.ssa Barbara Masucci | [📄 Appunti + Codici](./Magistrale/Programmazione%20Sicura) ||
 | Penetration Testing | Prof. Arcangelo Castiglione | [📄 Appunti ](./Magistrale/Penetration%20Testing) |[👉 Bizness](https://github.com/secLuk3/Penetration-Testing-Project-Unisa-23-24)|
 | Cybersecurity | Prof. Francesco Palmieri | [📄 Appunti ](./Magistrale/Cybersecurity) ||
-| Computer Assisted Audio Production | Prof. Riccardo Di Stasi | [📄 Materiale audio ](./Magistrale/Computer%20Assisted%20Audio%20Production) |[👉 Song](./Magistrale/Computer%20Assisted%20Audio%20Production/project)|
+| Computer Assisted Audio Production | Prof. Riccardo Di Stasi | [📄 Materiale audio ](./Magistrale/Computer%20Assisted%20Audio%20Production) |[👉 Song](./Magistrale/Computer%20Assisted%20Audio%20Production/Project)|
 | Digital Forensics | Prof. Ugo Fiore | [📄 Appunti](./Magistrale/Digital%20Forensics) ||
 | IoT Security | Prof. Cristian Esposito | [📄 Appunti + Codici](./Magistrale/IoT%20Security) |[👉 BlockTemp](https://github.com/Luke31999/BlockTemp)|
 | Compressione Dati | Prof. Bruno Carpentieri | [📄 Appunti ](./Magistrale/Compressione%20Dati) |[👉 Babele](https://github.com/secLuk3/Babele_Gruppo24_FVAB)|
