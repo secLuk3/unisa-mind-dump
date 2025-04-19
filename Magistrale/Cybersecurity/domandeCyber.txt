@@ -1,0 +1,89 @@
+Differenza tra firewall lv2 e firewall lv3 (nessuna differenza a livello di clausole possibili per l’access list)
+ACL router e firewall
+Firewall di ultima generazione
+
+Ti stanno attaccando e stanno facendo synflood con la pala: come ti muovi?
+
+Blackholing, sinkholing e scrubbing center
+
+differenza tra filtraggio su router di bordo e su firewall
+
+sei security administrator, si usa pratica di bring your own device e non sai che tengono a bordo i device che portano. Che meccanismo di sicurezza utilizzo? 
+
+Voglio garantire che le macchine abbiano adeguati livelli di sicurezza. NAC, è una panacea ?
+
+Access requestors e policy enforcement point
+le ACL cosa sono riguardo a questo modello?
+
+quando hai una sessione tcp vedi se c'è three way handshake, quando hai udp come te la cavi? udp usa un ttl alla scadenza del quale è probabile che i dati siano conlusi
+
+sto intercettando traffico e non riesco ad associare sorgente a destinazione, come posso fare, anche senza successo? associo flusso in uscita a quello in ingresso, prendo header pacchetto e confronto
+
+cos'è anonimato ?
+freenet ?
+logica hidden service in tor ?
+
+se sono  in un'organizzazione e voglio rilevare potenziali minacce, che dispositivo posso mettere? IDS e IPS e differenza , inoltre che differenza c'è tra le varie signature e anomaly based quelle cose lì.
+
+preferiamo una visione supervisionata o non supervisionata ?
+
+voglio amplificare gli effetti del mio attacco, che metodi uso e come faccio per ovviare al problema?
+
+alternative al broadcast per l'amplificazione
+
+backscattering
+
+se mi voglio proteggere a livello server da un synflood come faccio? 
+
+syncookie
+
+network telescope
+
+resource starvation
+
+limitazioni di banda: traffic limit e rate limit
+
+port scanning e network mapping preparazione all'attacco, xmastree flag push e urgent cosa sono
+slowloris
+
+reazione cooperativa agli attacchi dos, bgp durante dos
+
+come faccio a determinare che un traffico è di un determinato tipo
+filtraggio di banda, netflow
+far partire policy ad un determinato orario con le acl
+
+è rilevante l'ordine delle regole nell'acl?
+
+una acl vuota che fa?
+
+deep packet inspection cos'è e a che serve?
+
+voglio eliminare tutto il traffico bittorrent, come faccio?
+
+come reagire ad un worm
+
+tcp e udp flusso
+
+devi fare intercettazione telematica, come ti muovi? sniffer, wireshark
+TTL e SSL
+se ho tls come faccio mitm? ti fingi sia mittente che destinatario, firmi tu con la tua chiave.
+cos'è dominio sicurezza, perimetro e superficie di attacco
+
+inside outside e dmz
+ho più firewall, dove ti conviene mettere policy, più vicino o sul perimetrale?
+come te la cavi per gestire il traffico in categorie es studenti, docenti ecc. radius
+
+dns hijacking attack.
+come evitare il rischio di dns pervasive monitoring attack
+buffer overflow
+virus polimorfici 
+tap
+acl
+perimetro poroso e liquido
+
+
+
+differenza tra firewall nuova gen e vecchia gen
+differenza tra ips e ids
+
+matrice di lampson 
