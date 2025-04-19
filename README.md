@@ -13,7 +13,7 @@
 ## 📘 Triennale (Completata)
 
 | Corso | Docente/i | Risorse | Progetto |
-|-------|-----------|---------|----------|
+|-------|-----------|---------|-----------|
 | Analisi Matematica | Prof. Gerardo Iovane | [📄 Appunti-Formule](./Triennale/Analisi%20Matematica) ||
 | Sistemi Operativi | Prof.ssa Bruno Carpentieri | [📄 Appunti-Prove](./Triennale/Sistemi%20Operativi) ||
 | Basi di Dati | Prof. Giuseppe Polese | [📄 Progetto](./Triennale/Basi%20di%20Dati) ||
