@@ -28,7 +28,7 @@
 | Corso | Docente/i | Risorse | Progetto |
 |-------|-----------|---------|----------|
 | Metodi Numerici | Prof.ssa AngelamariaCardone | [📄 Appunti + Codici](./Magistrale/Metodi%20Numerici) ||
-| Programmazione Sicura | Prof.ssa Barbara Masucci | [📄 Appunti + Codici](./Magistrale/Programmazione%20Sicura) ||
+| Programmazione Sicura | Prof.ssa Barbara Masucci | [📄 Appunti + Codici](./Magistrale/Programmazione%20Sicura) |[👉Moniker Link](https://github.com/secLuk3/unisa-mind-dump/tree/main/Magistrale/Programmazione%20Sicura/Project)|
 | Penetration Testing | Prof. Arcangelo Castiglione | [📄 Appunti ](./Magistrale/Penetration%20Testing) |[👉 Bizness](https://github.com/secLuk3/Penetration-Testing-Project-Unisa-23-24)|
 | Cybersecurity | Prof. Francesco Palmieri | [📄 Appunti + Domande ](./Magistrale/Cybersecurity) ||
 | Computer Assisted Audio Production | Prof. Riccardo Di Stasi | [📄 Materiale audio ](./Magistrale/Computer%20Assisted%20Audio%20Production) |[👉 Song](./Magistrale/Computer%20Assisted%20Audio%20Production/Project)|
